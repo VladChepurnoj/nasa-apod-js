@@ -19,6 +19,52 @@
       <img src="rocket.svg" alt="Rocket loading animation" />
     </div>
 
+    <div class="container">
+      <div class="navigation-container">
+        <span class="background"> </span>
+
+        <span class="navigation-items" id="resultsNav">
+          <h3 class="clickable">Favorites</h3>
+          <h3>&nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp;</h3>
+          <h3 class="clickable">Load more</h3>
+        </span>
+
+        <span class="navigation-items hidden" id="favoritesNav">
+          <h3 class="clickable">Load more NASA images</h3>
+        </span>
+      </div>
+      <div class="images-container">
+        <div class="card">
+          <a href="" title="View full image" target="_blank">
+            <img
+              src="https://apod.nasa.gov/apod/image/2108/M57Ring_HubbleGendler_3000.jpg"
+              alt="NASA Picture of the day"
+              class="card-img-top"
+            />
+          </a>
+          <div class="card-body">
+            <h5 class="card-title">Title of image</h5>
+            <p class="clickable">Add to favorites</p>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Doloribus, perspiciatis? Officiis ab natus temporibus! Numquam
+              amet vero distinctio praesentium recusandae reiciendis dolor non
+              eaque expedita error blanditiis, placeat illum voluptate?
+            </p>
+
+            <small class="text-muted">
+              <strong>18.08.2021</strong>
+              <span>Copyright info </span>
+            </small>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="save-confirmed" hidden>
+      <h1>Added</h1>
+    </div>
+
     <script src="script.js"></script>
   </body>
 </html>
