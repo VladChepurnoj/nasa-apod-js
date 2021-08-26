@@ -35,7 +35,8 @@ body {
 /* Navigation */
 .navigation-container {
   position: fixed;
-  top: 0;
+  top: -20px;
+  border-top: 20px solid whitesmoke;
 }
 
 .navigation-items {
@@ -44,22 +45,22 @@ body {
 }
 
 .background {
-  background: whitesmoke;
   position: fixed;
   right: 0;
   width: 100%;
+  background: whitesmoke;
   height: 60px;
   z-index: -1;
 }
 
 .clickable {
-  color: rgb(9, 128, 224);
+  color: dodgerblue;
   cursor: pointer;
   user-select: none;
 }
 
 .clickable:hover {
-  color: rgb(16, 16, 114);
+  color: rgb(0, 99, 199);
 }
 
 /* Images Container */
@@ -108,7 +109,6 @@ body {
 }
 
 /* Hidden */
-
 .hidden {
   display: none;
 }
